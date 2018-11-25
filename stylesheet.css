@@ -1,34 +1,45 @@
 html,body {
   width: 100%;
   height: 100%;
-  v
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 h1 {
-  color: red;
-  animation: colors 2s infinite ease-in;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: black;
+  font-family: "Verdana", cursive, sans-serif;
   height: 100%;
   width: 100%;
-  font-size: 20em;
+  font-size: 1.5em;
   text-align: center;
   user-select: none;
 }
 
-
-@keyframes colors {
-  0% {color: red}
-  15% {color: orange}
-  30% {color: yellow}
-  50% {color: green}
-  70% {color: blue}
-  90% {color: purple}
-  100% {color: red}
+p {
+  color: black;
+  font-family: "Verdana", cursive, sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
+.container {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-@keyframes bgcolors {
-  0% {color: rgba(1.0, 0.0, 0.0, 0.3)}
-  50% {color: rgba(0.0, 1.0, 0.0, 0.3)}
-  75% {color: rgba(0.0, 0.0, 1.0, 0.3)}
-  100% {color: rgba(1.0, 0.0, 0.0, 0.3)}
+.container .inputbox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+input {
+  height: 20px;
+  font-size: 1em;
+  border: 1px solid black;
 }
