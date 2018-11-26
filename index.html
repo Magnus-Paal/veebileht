@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ALKOLAATOR</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="/app.js"></script>
   </head>
   <body>
-    <a href="index2.html">Aktsiis ja Müük</a>
     <div class="container">
       <h1>KAS TASUB MINNA LÄTTI ODAVAMA ALKOHOLI JÄRELE?</h1>
+      <a href="/index2.html">Aktsiis ja Müük</a>
       <div class="inputbox">
-        <p>Vahemaa lähima läti poeni (<a href="https://www.google.com/maps" target="_blank">1</a>)</p>
+        <p>Vahemaa lähima läti poeni (km)(<a href="https://www.google.com/maps" target="_blank">1</a>)</p>
         <input type="text" class="vahemaa">
       </div>
       <div class="inputbox">
@@ -19,9 +20,11 @@
         <input type="text" class="kütusekulu">
       </div>
       <div class="inputbox">
-        <p>Praegune kütuse hind (€)(<a href="https://www.1182.ee/fuelprices" target="_blank">3</a>)</p>
+        <p>Praegune kütuse hind (€/l)(<a href="https://www.1182.ee/fuelprices" target="_blank">3</a>)</p>
         <input type="text" class="hind">
       </div>
+      <button type="button" onclick="kalkuleeri()">Kalkuleeri</button>
+      <p class="tulemus"></p>
     </div>
   </body>
 </html>
