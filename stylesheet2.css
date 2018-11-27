@@ -1,40 +1,108 @@
+html,body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 h1 {
   font-family: "Verdana", cursive, sans-serif;
-  height: 100%;
-  width: 100%;
-  font-size: 60px;
-  text-align: left;
+  font-size: 4.2em;
+  text-align: center;
   background-image: -webkit-linear-gradient(blue, black, white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  word-wrap: normal;
+}
+
+h2 {
+  color: black;
+  font-family: "Verdana", cursive, sans-serif;
+  font-size: 1.2em;
+  margin: 20px 0px 20px 0px;
+  word-wrap: normal;
 }
 
 p {
   color: black;
   font-family: "Verdana", cursive, sans-serif;
-  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0.9em;
+  text-align: justify;
+  margin: 10px 0px 10px 0px;
+  word-wrap: normal;
+}
+
+a {
+  color: black;
+  font-family: "Verdana", cursive, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0.9em;
+  word-wrap: normal;
+}
+
+.menubar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.menubar a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.menubar a:hover {
+  color: blue;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 table {
+  table-layout: fixed;
   font-family: "Verdana", cursive, sans-serif;
-  font-size: 12px;
+  font-size: 0.8em;
   border: 1px solid black;
   border-collapse: collapse;
-  width: 80%;
+  width: 100%;
 }
 
 caption {
   font-family: "Verdana", cursive, sans-serif;
-  font-size: 15px;
+  font-size: 1.1em;
+  word-wrap: break-word;
 }
 
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
-  padding: 10px;
+  padding: 3px;
+  word-wrap: break-word;
+  font-family: "Verdana", cursive, sans-serif;
+}
+
+tr {
 }
 
 th {
   background-color: #238BF4;
   color: white;
+  word-wrap: break-word;
 }
