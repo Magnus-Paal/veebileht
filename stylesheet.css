@@ -92,3 +92,11 @@ input {
   margin-top: 2em;
   height: 50px;
 }
+
+.x5 {
+  background: url('/x5.jpg');
+  height: 450px;
+  width: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

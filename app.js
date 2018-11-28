@@ -32,5 +32,5 @@ function kalkuleeri(){
     palju = 0;
   }
   console.log(alko, palju, kütusele);
-  document.querySelector('.tulemus').innerHTML = 'Selleks, et Lätti minemine väärt oleks, peaksite Valkast ostma: '+ alko.join(', ');
+  document.querySelector('.tulemus p').innerHTML = 'Selleks, et Lätti minemine väärt oleks, peaksite Valkast ostma: '+ alko.join(', ');
 }
