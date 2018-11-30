@@ -4,6 +4,7 @@ html,body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  font-family: "Verdana", cursive, sans-serif;
 }
 
 .menubar {
